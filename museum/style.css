@@ -5,15 +5,14 @@
 }
 @font-face {
   font-family: "Forum";
-  src: url(./assets/fonts/Forum-Regular.ttf) format("ttf");
-  font-weight: normal;
+  src: url(./assets/fonts/Forum-Regular.ttf);
+  font-weight: 300;
 }
-/* @font-face { */
-  /* font-family: "Roboto";
-  src: url(./assets/fonts/Roboto-Light.ttf) format("ttf");
-  font-weight: lighter;
-} */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Light.ttf);
+  font-weight: 300;
+}
 header {
   position: relative;
   display: flex;
@@ -72,13 +71,12 @@ header {
 }
 h1 {
   width: 593px;
-  height: 180px;
   font-family: "Forum";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 80px;
   line-height: 90px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -99,12 +97,12 @@ h1 {
 }
 .welcome p {
   font-family: "Roboto";
-font-style: normal;
-font-weight: 300;
-font-size: 28px;
-line-height: 33px;
-letter-spacing: 2px;
-color: #FFFFFF;
-margin-top: 25px;
-margin-bottom: 75px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 75px;
 }
