@@ -3,16 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
 @font-face {
   font-family: "Forum";
   src: url(./assets/fonts/Forum-Regular.ttf);
   font-weight: 300;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url(./assets/fonts/Roboto-Light.ttf);
   font-weight: 300;
 }
+
 header {
   position: relative;
   display: flex;
@@ -30,12 +33,17 @@ header {
   font-size: 28px;
   line-height: 31px;
   letter-spacing: 5px;
+}
+
+.header-left span {
   text-transform: uppercase;
 }
+
 .header-menu {
   list-style-type: none;
   display: flex;
 }
+
 .header-menu li {
   margin-left: 55px;
   font-family: "Roboto";
@@ -46,9 +54,11 @@ header {
   letter-spacing: 2px;
   color: #ffffff;
 }
+
 .header-triangle {
   margin-right: 25px;
 }
+
 .welcome {
   position: relative;
   margin: 0 auto;
@@ -56,19 +66,22 @@ header {
   height: 842px;
   background-color: #030303;
 }
-.welcome div {
+
+.welcome-content {
   position: relative;
   z-index: 1;
   top: 182px;
   left: 240px;
 }
-.welcome img {
+
+.mona-liza {
   position: absolute;
   width: 1000px;
   height: 750px;
   top: 32px;
   right: 240px;
 }
+
 h1 {
   width: 593px;
   font-family: "Forum";
@@ -80,6 +93,7 @@ h1 {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .welcome button {
   width: 360px;
   height: 75px;
@@ -95,6 +109,7 @@ h1 {
   color: #ffffff;
   border: none;
 }
+
 .welcome p {
   font-family: "Roboto";
   font-style: normal;
@@ -105,4 +120,56 @@ h1 {
   color: #ffffff;
   margin-top: 25px;
   margin-bottom: 75px;
+}
+
+.slider {
+  background: #030303;
+  width: 600px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 240px;
+}
+
+.slider-page {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+ margin-left: 74px;
+ margin-right: 55px;
+}
+
+.slider-page span {
+  margin-right: 10px;
+}
+
+.slider-page span:last-child {
+  margin-right: 0;
+}
+
+.slider-item {
+  background-color: #ffffff;
+  width: 16px;
+height: 16px;
+margin-right: 25px;
+}
+
+.slider-item.active {
+  background: #D2B183;
+}
+
+.slider img {
+  width: 30px;
+height: 8px;
+color: #ffffff;
+}
+
+.arrow-left {
+  margin-left: 35px;
+  margin-right: 20px;
 }
