@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #DBDBDB;
+  background: #dbdbdb;
 }
 
 @font-face {
@@ -189,7 +189,7 @@ h1 {
   padding: 0 240px;
   width: 1920px;
   height: 1266px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding-top: 75px;
 }
 
@@ -269,3 +269,77 @@ h1 {
 .card {
   margin-bottom: 75px;
 }
+
+.explore {
+  display: flex;
+  width: 1920px;
+  height: 865px;
+  background: #030303;
+  margin: 0 auto;
+  padding: 75px 240px;
+  justify-content: space-between;
+}
+
+.explore h2 {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.explore hr {
+  width: 660px;
+  height: 3px;
+  background: #710707;
+  border: none;
+  color: #710707;
+  margin: 25px 0 75px 0;
+}
+
+.explore p {
+  width: 660px;
+  margin-bottom: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
+  letter-spacing: 0.1px;
+}
+
+.yellow {
+  color: #caaa7d;
+}
+
+ .explore .slider {
+  width: 39px;
+  height: 700px;
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  left: 420px;
+  z-index: 2;
+}
+
+.explore-main {
+  width: 720px;
+  height: 700px;
+}
+
+.explore-left {
+  width: 440px;
+  height: 700px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+.explore .photo {
+  position: relative;
+}
+
