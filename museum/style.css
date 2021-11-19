@@ -197,6 +197,7 @@ h1 {
   width: 300px;
   height: 2px;
   margin: 9px 0 10px;
+  transition: 0.7s ease;
 }
 
 .tour {
@@ -227,6 +228,11 @@ h1 {
 
 .card {
   margin-bottom: 77px;
+}
+
+.card:hover hr {
+width: 100%;
+transition: 0.7s ease;
 }
 
 .explore {
