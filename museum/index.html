@@ -11,55 +11,32 @@
   <body>
     <header>
       <div class="header-left">
-        <img
-          class="header-triangle"
-          src="./assets/svg/Vector.svg"
-          alt="triangle"
-        />
+        <img class="triangle" src="./assets/svg/Vector.svg" alt="triangle" />
         <span>louvre</span>
       </div>
       <ul class="header-menu">
-        <li>Visiting</li>
-        <li>Explore</li>
-        <li>Video</li>
-        <li>Gallery</li>
-        <li>Tickets</li>
-        <li>Contacts</li>
+        <li><a href="#visiting">Visiting</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
     </header>
     <main>
-      <section class="welcome">
+      <section class="welcome" id="welcome">
         <div class="welcome-content">
           <h1>welcome<br />to the louvre</h1>
           <p>From the castle to the museum</p>
           <button>Discover the Louvre</button>
         </div>
-        <img class="mona-liza" src="./assets/img/1.jpg" alt="Mona-Liza" />
-        <div class="slider">
-          <div class="slider-page">
-            <span>01</span>
-            <span>|</span>
-            <span>05</span>
-          </div>
-          <div class="slider-item active"></div>
-          <div class="slider-item"></div>
-          <div class="slider-item"></div>
-          <div class="slider-item"></div>
-          <div class="slider-item"></div>
-          <img
-            class="arrow-left"
-            src="./assets/svg/arrow-left.svg"
-            alt="arrow-left"
-          />
-          <img
-            class="arrow-right"
-            src="./assets/svg/arrow-right.svg"
-            alt="arrow-right"
-          />
-        </div>
+        <img
+          class="welcome-img"
+          src="./assets/img/welcome-img.jpg"
+          alt="Louvre"
+        />
       </section>
 
-      <section class="visiting">
+      <section class="visiting" id="visiting">
         <h2>virtual tour</h2>
         <hr class="visiting-hr" />
         <div class="card-wrapper">
@@ -111,7 +88,7 @@
         </div>
       </section>
 
-      <section class="explore">
+      <section class="explore" id="explore">
         <div class="content">
           <h2>picture explore</h2>
           <hr />
@@ -129,24 +106,106 @@
             been damaged in any way, but because it looked different.
           </p>
         </div>
-        <div class="photo">
-          <img
-            class="explore-main"
-            src="./assets/img/explore-main.jpg"
-            alt="before"
-          />
-          <img
-            class="explore-left"
-            src="./assets/img/explore-left.jpg"
-            alt="after"
-          />
-          <img
-            class="slider"
-            src="./assets/svg/explore-slider.svg"
-            alt="slider"
-          />
+        <img
+          class="explore-main"
+          src="./assets/img/explore-main.jpg"
+          alt="picture"
+        />
+      </section>
+
+      <section class="video" id="video">
+        <iframe
+          src="https://www.youtube.com/embed/zp1BXPX8jcU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controls
+        ></iframe>
+        <div class="video-content">
+          <h2>video journey</h2>
+          <p>
+            Enter and visit one of the most famous museums in the world and
+            enjoy masterpieces such as Mona Lisa or Hammurabi's Code
+          </p>
+        </div>
+      </section>
+
+      <section class="tickets" id="tickets">
+        <h2>buy tickets</h2>
+        <hr />
+        <div class="tickets-wrapper">
+          <img src="./assets/img/buy-tickets.jpg" alt="Antique painting" />
+          <form>
+            <div class="type-ticket">
+              <h6>Ticket Type</h6>
+              <input type="radio" id="type1" name="ticket" value="permanent" />
+              <label for="type1">Permanent exhibition</label>
+              <br />
+              <input type="radio" id="type2" name="ticket" value="temporary" />
+              <label for="type2">Temporary exhibition</label>
+              <br />
+              <input type="radio" id="type3" name="ticket" value="combined" />
+              <label for="type3">Combined Admission</label>
+            </div>
+            <div class="amount">
+              <h6>Amount</h6>
+              <p class="basic">Basic 18+</p>
+              <img src="./assets/svg/amount.svg" alt="Basic button" />
+              <p class="senior">Senior 65+</p>
+              <img src="./assets/svg/amount.svg" alt="Senior button" />
+              <p class="total">Total €220</p>
+              <button>Buy Now</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <h2>contacts</h2>
+        <hr />
+        <div class="contacts-wrapper">
+          <div class="left">
+            <h6>Palais Royal</h6>
+            <h6>Musee du Louvre</h6>
+            <p>address: 75001 Paris, France</p>
+            <p>phone: +33(0) 1 40 20 50 50</p>
+            <p>mail: info@louvre.fr</p>
+          </div>
+          <img src="./assets/img/contact-map.png" alt="Map" />
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-left">
+        <img class="triangle" src="./assets/svg/Vector.svg" alt="triangle" />
+        <span>louvre</span>
+      </div>
+      <ul class="footer-menu">
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#visiting">Visiting</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+      <div class="social">
+        <a href="https://www.youtube.com/user/louvre" target="_blank"
+          ><img src="./assets/svg/Youtube.svg" alt="Youtube"
+        /></a>
+        <a href="https://www.instagram.com/museelouvre/" target="_blank"
+          ><img src="./assets/svg/Instagram.svg" alt="Instagram"
+        /></a>
+        <a href="https://www.facebook.com/museedulouvre" target="_blank"
+          ><img src="./assets/svg/Facebook.svg" alt="facebook"
+        /></a>
+        <a href="http://twitter.com/museelouvre" target="_blank"
+          ><img src="./assets/svg/Twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://www.pinterest.fr/museedulouvre/" target="_blank"
+          ><img src="./assets/svg/Pinterest.svg" alt="pinterest"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
